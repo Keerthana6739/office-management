@@ -1,0 +1,67 @@
+.body {
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid white;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+}
+
+.form-label {
+    font-size: 18px; 
+    margin: 10px 0;
+    
+}
+.btn{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.btn1{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 20px;
+    margin-top: 5px;
+   text-decoration: none;
+}
+.btns{
+    margin-top: 20px;
+}
+.card-header {
+    font-size: 34px; 
+    margin: 15px 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #000; 
+    background: transparent;
+    outline: none;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* dashboard*/

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body class="body">
+    <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+        <form>
+          <div class="mb-3">
+            <label for="signupUsername" class="form-label">Username</label>
+            <input type="text" class="form-control" id="signupUsername" placeholder="Enter your username">
+          </div>
+          <div class="mb-3">
+            <label for="signupEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="signupEmail" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="signupPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="signupPassword" placeholder="Enter your password">
+          </div>
+          <div class="mb-3">
+            <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="signupConfirmPassword" placeholder="Confirm your password">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Signup</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer text-center">
+    <a href="#">Forgot your password?</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
