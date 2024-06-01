@@ -202,19 +202,19 @@
 .sidebar.close .profile-details img {
     padding: 10px;
 }
-.sidebar .profile-details .profile_name,
-.sidebar .profile-details .job {
+.sidebar .profile-details ,
+.sidebar .profile-details  {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     white-space: nowrap;
 }
 .sidebar.close .profile-details i,
-.sidebar.close .profile-details .profile_name,
-.sidebar.close .profile-details .job {
+.sidebar.close .profile-details,
+.sidebar.close .profile-details  {
     display: none;
 }
-.sidebar .profile-details .job {
+.sidebar .profile-details {
     font-size: 12px;
 }
 .home-section {
@@ -267,23 +267,29 @@
 
 @media (max-width: 768px) {
     .sidebar {
-        width: 0px;
+        width: 0;
+        visibility: hidden;
     }
-    .sidebar .logo_name {
-        opacity: 0;
-     
+    .sidebar.close {
+        width: 78px;
+        visibility: visible;
     }
-    .sidebar .nav-links li:hover .sub-menu {
-       
-        position: relative;
-        padding: 0;
+    .sidebar.close .logo-details,
+    .sidebar.close .nav-links li i,
+    .sidebar.close .profile-details {
+        display: block;
     }
-    
     .home-section {
-        left: 100px;
+        left: 0;
         width: 100%;
     }
     .home-section .home-content .text {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sidebar.close .nav-links li .sub-menu {
+        display: none;
     }
 }
